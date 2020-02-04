@@ -14,9 +14,12 @@ function funcGetName() {
       greeting = 'Welcome ' ;}
     document.getElementById("username").innerHTML = greeting +"  " + person ;
     
-     var color = prompt("Enter the color that you want on the Background?");
+     var color = prompt(greeting +" " + person + ", Please enter the color that you want on the Background?");
      document.body.style.backgroundColor = color; 
 
-  }
+  }else {
+      greeting = 'Welcome ' ;
+     var color = prompt(greeting +" " + person + ", Please enter the color that you want on the Background?");
+     document.body.style.backgroundColor = color; }
 };
 
