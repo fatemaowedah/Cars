@@ -13,6 +13,10 @@ function funcGetName() {
     }else {
       greeting = 'Welcome ' ;}
     document.getElementById("username").innerHTML = greeting +"  " + person ;
+    
+     var color = prompt("Enter the color that you want on the Background?");
+     document.body.style.backgroundColor = color; 
+
   }
 };
 
