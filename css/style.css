@@ -37,6 +37,7 @@ body {
     background-color: beige;
     display: block;
    margin-left: 320px;
-   
 }
-
+#username{
+padding: 10px;
+}
