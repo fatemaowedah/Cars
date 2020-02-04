@@ -1,7 +1,6 @@
 function funcGetName() {
   var person = prompt("Please enter your name", "");
   if (person != null) {
-    
     var today= new Date();
     var hourNow = today.getHours();
     var greeting;
@@ -10,10 +9,10 @@ function funcGetName() {
     }else if (hourNow > 12) {
       greeting = ' Good afternoon!';
     }else if (hourNow > 0) {
-      greeting = 'Good morni ng!';
+      greeting = 'Good morning!';
     }else {
       greeting = 'Welcome! ' ;}
-    document.getElementById("username").innerHTML = greeting + person + "";
+    document.getElementById("username").innerHTML = greeting +"" + person ;
   }
 };
 
