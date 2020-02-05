@@ -13,6 +13,9 @@ function funcGetName() {
     }else {
       greeting = 'Welcome ' ;}
     document.getElementById("username").innerHTML = greeting +"  " + person ;
+
+    var Age = prompt("please enter your age")
+    var gender = prompt("please enter your age")
     
      var color = prompt(greeting +" " + person + ", Please enter the color that you want on the Background?");
      document.body.style.backgroundColor = color; 
@@ -21,5 +24,7 @@ function funcGetName() {
       greeting = 'Welcome ' ;
      var color = prompt(greeting +" " + person + ", Please enter the color that you want on the Background?");
      document.body.style.backgroundColor = color; }
+
+  
 };
 
