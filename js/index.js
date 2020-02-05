@@ -16,7 +16,7 @@ function funcGetName() {
 
     var Age = prompt("please enter your age")
     var gender = prompt("please enter your age")
-    
+    confirm("Confirm the data")
      var color = prompt(greeting +" " + person + ", Please enter the color that you want on the Background?");
      document.body.style.backgroundColor = color; 
 
