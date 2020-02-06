@@ -23,7 +23,7 @@ body {
      text-decoration: none;
  }
  img {
-     width: 500px;
+     width: 200px;
      float: left;
      margin: 30px;
      margin-top: 0;
@@ -40,4 +40,5 @@ body {
 }
 #username{
 padding: 10px;
+
 }
